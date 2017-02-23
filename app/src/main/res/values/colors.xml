@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dark">#616161</color>
+
+    <color name="tabSelect">#000000</color>
+    <color name="tabUnSelect">#555555</color>
+    <color name="red">#ff0000</color>
+
+    <color name="movieDetailTvColor">#555555</color>
+</resources>

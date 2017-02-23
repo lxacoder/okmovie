@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_theater"
+        icon="@drawable/ic_theater"
+        title="院线"
+        activeColor="#ffffff"/>
+    <tab
+        id="@+id/tab_rank"
+        icon="@drawable/ic_rank"
+        title="排行榜"
+        activeColor="#ffffff"/>
+    <tab
+        id="@+id/tab_news"
+        icon="@drawable/ic_news"
+        title="新闻"
+        activeColor="#ffffff"/>
+    <tab
+        id="@+id/tab_me"
+        icon="@drawable/ic_me"
+        title="我的"
+        activeColor="#ffffff"/>
+</tabs>

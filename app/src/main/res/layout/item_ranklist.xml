@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="7dp"
+    android:paddingTop="10dp"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="5dp">
+
+        <ImageView
+            android:id="@+id/rankNumBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/topmovie_list_num1"/>
+
+        <TextView
+            android:id="@+id/rankNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="1"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/cover"
+            android:text="卡萨布兰卡"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/title"
+            android:scaleType="fitXY"
+            android:src="@drawable/movie_rate_on"/>
+
+        <TextView
+            android:id="@+id/movie_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@+id/title"
+            android:text="8.6"
+            android:textColor="#ffffff"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:id="@+id/akaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/title"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="5dp"
+            android:text="Casablanca"/>
+
+        <TextView
+            android:id="@+id/directortv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/title"
+            android:layout_below="@+id/akaTitle"
+            android:layout_marginTop="8dp"
+            android:text="导演:"
+            android:textSize="11sp"
+            />
+
+        <TextView
+            android:id="@+id/director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/directortv"
+            android:layout_below="@+id/akaTitle"
+            android:layout_toRightOf="@+id/directortv"
+            android:text="迈克尔.斯蒂斯"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/mainactortv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/title"
+            android:layout_below="@+id/directortv"
+            android:layout_marginTop="5dp"
+            android:text="主演:"
+            android:textSize="11sp"
+            />
+
+        <TextView
+            android:id="@+id/mainactor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/mainactortv"
+            android:layout_below="@+id/director"
+            android:layout_toRightOf="@+id/directortv"
+            android:text="亨弗莱.鲍嘉"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/pupdatetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/title"
+            android:layout_below="@+id/mainactor"
+            android:layout_marginTop="10dp"
+            android:text="上映日期:"
+            android:textSize="11sp"/>
+
+        <TextView
+            android:id="@+id/pupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/pupdatetv"
+            android:layout_toRightOf="@+id/pupdatetv"
+            android:text="1942年11月26日 美国"
+            android:textSize="11sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cover"
+            android:layout_alignStart="@+id/cover"
+            android:layout_marginEnd="70dp"
+            android:layout_marginTop="10dp"
+            android:background="#dddddd"
+            android:layout_marginStart="5dp"
+            >
+
+            <TextView
+                android:id="@+id/summary"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:text="在混合着危险的异国情调的浪漫中，男女主角在乱世重逢，"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="80dp"
+            android:layout_height="105dp"
+            android:src="@mipmap/testmid"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+</LinearLayout>
